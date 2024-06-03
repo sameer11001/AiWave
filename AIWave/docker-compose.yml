@@ -1,0 +1,30 @@
+version: '1'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: wavebase
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis/redis-stack:latest
+    container_name: redis-container
+    ports:
+      - "6379:6379"
+  
+  waveenv:
+    image: mohamadaboud/miniwaveenv:v0.0.5
+    container_name: wave-container
+    build: .
+    ports:
+      - "7651:7651"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis

@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "aiwave",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aiwave (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aiwave (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "wave_auth",
+            "cwd": "packages\\wave_auth",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wave_auth (profile mode)",
+            "cwd": "packages\\wave_auth",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "wave_auth (release mode)",
+            "cwd": "packages\\wave_auth",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

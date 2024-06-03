@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/**
+.venv/**
+
+# Compiled Python files
+**/__pycache__/**
+
+# Logs and local development files
+*.log
+*.log.*
+logs/debug/**
+logs/error/**
+logs/info/**
+logs/warning/**
+
+# ignore this dicrectory
+.vscode/**
+storage/**
+instance/**
+temp/*
+temp/**
+models/**
+tests/**
+**/*.test/**
+
+# ignore this files
+*.db
+.env
+**/*.test.*

@@ -1,0 +1,9 @@
+# -r requirements.txt # Install dependencies
+
+# List of project dependencies
+
+# - LLM
+langchain-google-genai==0.0.5
+
+# helpers
+sse-starlette==1.6.5

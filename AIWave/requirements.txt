@@ -1,0 +1,40 @@
+# List of project dependencies
+
+# api
+Flask==2.3.3
+
+# database
+SQLAlchemy==2.0.21
+psycopg2-binary
+redis==5.0.1
+
+# vector database
+pysqlite3-binary==0.5.2.post1
+
+# # hashing passwords
+Flask-Bcrypt==1.0.1
+
+# # helpers
+Markdown==3.5
+translate==3.6.1
+python-dotenv==1.0.0
+pypdf==3.16.4
+PyMuPDF==1.23.5
+lapx==0.5.5 # A copy of `lap` package
+Cython==3.0.3
+
+# langchain retrieval
+arxiv==1.4.8
+wikipedia==1.4.0
+
+# - Computer Vision
+opencv-python==4.8.1.78
+ultralytics==8.0.215
+
+# Ai stuff
+openai-whisper==20230918
+langchain==0.0.313
+langchain-experimental==0.0.30
+
+# - LLM
+google-generativeai==0.2.1

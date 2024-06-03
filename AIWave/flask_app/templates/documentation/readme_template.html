@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    {{ title | default('AIWave Documentation') }}
+{% endblock %}
+
+{% block body %}
+<div>
+    {{ html_content | default('No content available') | safe }}
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+{% endblock %}
